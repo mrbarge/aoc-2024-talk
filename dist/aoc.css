@@ -1,0 +1,31 @@
+/* Custom CSS for positioning ASCII art in the lower right */
+.ascii-art {
+    position: fixed;
+    bottom: 0px; /* Adjust as needed for padding */
+    right: 0px;  /* Adjust as needed for padding */
+    font-family: monospace; /* Ensures the ASCII art is rendered with a monospaced font */
+    font-size: 12px; /* Adjust the size of the ASCII art */
+    color: #ffffff; /* Set the color of the ASCII art */
+    white-space: pre; /* Ensure that spaces and line breaks are preserved */
+}
+
+.left-pane {
+    left:-8.33%;
+    text-align: left;
+    float: left;
+    width:50%;
+    z-index:-10;
+    font-family: monospace; /* Ensures the ASCII art is rendered with a monospaced font */
+    font-size: 12px; /* Adjust the size of the ASCII art */
+    color: #ffffff; /* Set the color of the ASCII art */
+    white-space: pre; /* Ensure that spaces and line breaks are preserved */
+}
+
+.right-pane {
+    left:31.25%;
+    top: 75px;
+    float: right;
+    text-align: right;
+    z-index:-10;
+    width:50%;
+}
