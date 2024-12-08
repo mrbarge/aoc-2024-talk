@@ -132,7 +132,7 @@ acquainted with <span style="color:gold">step debuggers</span>.
 
 ## Start with the basics
 
-```python [5-6|7-8|9-12|1-3]
+```python
 def part_one(left: list[int], right: list[int]) -> int:
     # We'll implement this last
     return 0
